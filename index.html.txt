@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eu Amo a Ana</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #8B0000; /* Vermelho escuro */
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    .message {
+      font-size: 5rem;
+      margin: 20px;
+    }
+    .hearts {
+      font-size: 2rem;
+      margin: 20px;
+    }
+    .hearts span {
+      color: pink;
+      margin: 0 5px;
+    }
+    /* Responsividade */
+    @media (max-width: 600px) {
+      .message {
+        font-size: 3rem;
+      }
+      .hearts {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <div class="message">Eu amo a Ana</div>
+    <div class="hearts">
+      <span>♥</span><span>♥</span><span>♥</span><span>♥</span><span>♥</span>
+      <span>♥</span><span>♥</span><span>♥</span><span>♥</span><span>♥</span>
+    </div>
+  </div>
+</body>
+</html>
+
